@@ -1,0 +1,66 @@
+/**
+ * Invitee Module Stylesheet
+ *
+ * @package		ExpressionEngine
+ * @subpackage	Addons
+ * @category	Module
+ * @author		Kevin Thompson (Brilliant2)
+ * @link		http://www.brilliantretail.com
+ */
+
+/* Overwrite Existing Styles */
+#mainContent .pageContents table { margin-bottom:0; }
+#mainContent .pageContents table + .instruction_text { padding-top:5px; }
+#mainContent .mainTable th a.add_condition_group,
+#mainContent .mainTable th a.add_condition_group:hover,
+#mainContent .mainTable th a.add_condition_group:visited { float:right; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0,.15); }
+textarea,
+input[type="text"] { width:100%; }
+.pageContents label { margin:10px 0 0; display:block; }
+.pageContents .submit { margin-right:10px; }
+#mainContent .tableSubmit { margin:15px 0 0; }
+
+/* Add a Few of Our Own */
+ol { margin-left:14px; }
+ol li { margin-bottom:2px; }
+.content { margin:10px 0 0 8px; }
+.entry_list { list-style-type:disc; margin:0 0 15px 15px; }
+.entry_list li { margin:0 0 4px; }
+.pageContents a.delete_condition_group:link,      
+.pageContents a.delete_condition_group:visited { color:#fff; float:right; }
+.instruction_text p { margin:4px 0 0 0 !important; }
+.settings_instruction_text { float:left; }
+.settings_instruction_text p { margin:10px 0 0 12px !important; }
+table.mainTable.padTable th { background: #8fa2ad url('../images/backgrounds_sprite.png') repeat-x 0 -474px; border:0; color:#37444D; }
+.pageContents .newTemplate .submit { margin-right:0; }
+label:first-child	{ margin-top:0; }
+                                                            
+.holder	{ border:0; margin:0 10px 0 0; padding:8px 0 10px; }
+.holder.table { margin:0; }
+.mainTable {    
+    border-radius:          3px;                            
+    -moz-border-radius:     3px;                            
+    -webkit-border-radius:  3px;                            
+}                                                           
+.mainTable th:first-child {
+	-webkit-border-top-left-radius: 3px;                    
+	    -moz-border-radius-topleft: 3px;                    	
+	        border-top-left-radius: 3px;                    		
+}                                                           
+.mainTable th:last-child {
+	-webkit-border-top-right-radius: 3px;                   
+	    -moz-border-radius-topright: 3px;                   	
+	        border-top-right-radius: 3px;                   		
+}                                                           
+.mainTable tr:last-child td:first-child {
+	-webkit-border-bottom-left-radius: 3px;                 
+	    -moz-border-radius-bottomleft: 3px;                 	
+	        border-bottom-left-radius: 3px;                 		
+}                                                           
+.mainTable tr:last-child td:last-child {
+	-webkit-border-bottom-right-radius: 3px;                
+	    -moz-border-radius-bottomright: 3px;      	
+	        border-bottom-right-radius: 3px;      		
+}
+
+.formActions { margin:10px 0 0; }
